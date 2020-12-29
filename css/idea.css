@@ -1,0 +1,360 @@
+div.flowbackjpg{
+    filter:blur(1px);
+}
+main.main{
+    position: relative;
+    margin-top:200px;
+}
+div.paper01{
+    width:120px;
+    height: 140px;
+    background-color: #fffca1;
+    position: absolute;
+    top:20%;
+    left:2%;
+    box-shadow: 3px 3px 10px gray;
+    transform: rotate(2deg);
+}
+div > h2.paperh01{
+    font-size:16px;
+    color:#53483b;
+    text-align: center;
+    margin:5px 0px;
+}
+div > p.paperword01{
+    font-size:12px;
+    color:#53483b;
+    /* border:1px solid red; */
+    line-height: 1.5;
+    padding:5px 5px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+div > a > img.next01{
+    width:10%;
+    position: absolute;
+    right:4%;
+    bottom:5%;
+}
+div > a > img:hover{
+}
+div.paper01:hover{
+    width:240px;
+    height: 280px;
+    z-index: 1;
+    transition:all 1s;
+
+}
+div.paper01:hover h2.paperh01{
+    font-size:32px;
+    transition:all 1s;
+
+}
+div.paper01:hover p.paperword01{
+    font-size:24px;
+    transition:all 1s;
+}
+
+
+
+div.paper02{
+    width:120px;
+    height: 140px;
+    background-color: #fffca1;
+    position: absolute;
+    top:25%;
+    left:15%;
+    box-shadow: 3px 3px 10px gray;
+    transform: rotate(-4deg);
+}
+div.paper02:hover{
+    width:240px;
+    height: 280px;
+    z-index: 1;
+    transition:all 1s;
+
+}
+div.paper02:hover h2.paperh01{
+    font-size:32px;
+    transition:all 1s;
+
+}
+div.paper02:hover p.paperword01{
+    font-size:24px;
+    transition:all 1s;
+}
+
+
+
+div.paper03{
+    width:120px;
+    height: 140px;
+    background-color: #fffca1;
+    position: absolute;
+    top:45%;
+    left:13%;
+    box-shadow: 3px 3px 10px gray;
+    transform: rotate(6deg);
+}
+div.paper03:hover{
+    width:240px;
+    height: 280px;
+    z-index: 1;
+    transition:all 1s;
+
+}
+div.paper03:hover h2.paperh01{
+    font-size:32px;
+    transition:all 1s;
+
+}
+div.paper03:hover p.paperword01{
+    font-size:24px;
+    transition:all 1s;
+}
+
+div.paper04{
+    width:120px;
+    height: 140px;
+    background-color: #fffca1;
+    position: absolute;
+    top:35%;
+    left:50%;
+    box-shadow: 3px 3px 10px gray;
+    transform: rotate(0deg);
+}
+div.paper04:hover{
+    width:240px;
+    height: 280px;
+    z-index: 1;
+    transition:all 1s;
+
+}
+div.paper04:hover h2.paperh01{
+    font-size:32px;
+    transition:all 1s;
+
+}
+div.paper04:hover p.paperword01{
+    font-size:24px;
+    transition:all 1s;
+}
+
+
+div.paper05{
+    width:120px;
+    height: 140px;
+    background-color: #fffca1;
+    position: absolute;
+    top:24%;
+    right:10%;
+    box-shadow: 3px 3px 10px gray;
+    transform: rotate(1deg);
+}
+div.paper05:hover{
+    width:240px;
+    height: 280px;
+    z-index: 1;
+    transition:all 1s;
+
+}
+div.paper05:hover h2.paperh01{
+    font-size:32px;
+    transition:all 1s;
+
+}
+div.paper05:hover p.paperword01{
+    font-size:24px;
+    transition:all 1s;
+}
+
+
+div.paper06{
+    width:120px;
+    height: 140px;
+    background-color: #fffca1;
+    position: absolute;
+    top:54%;
+    right:16%;
+    box-shadow: 3px 3px 10px gray;
+    transform: rotate(10deg);
+}
+div.paper06:hover{
+    width:240px;
+    height: 280px;
+    z-index: 1;
+    transition:all 1s;
+
+}
+div.paper06:hover h2.paperh01{
+    font-size:32px;
+    transition:all 1s;
+
+}
+div.paper06:hover p.paperword01{
+    font-size:24px;
+    transition:all 1s;
+}
+
+
+div.paper07{
+    width:120px;
+    height: 140px;
+    background-color: #fffca1;
+    position: absolute;
+    top:48%;
+    left:36%;
+    box-shadow: 3px 3px 10px gray;
+    transform: rotate(-8deg);
+}
+div.paper07:hover{
+    width:240px;
+    height: 280px;
+    z-index: 1;
+    transition:all 1s;
+
+}
+div.paper07:hover h2.paperh01{
+    font-size:32px;
+    transition:all 1s;
+
+}
+div.paper07:hover p.paperword01{
+    font-size:24px;
+    transition:all 1s;
+}
+
+
+div.paper08{
+    width:120px;
+    height: 140px;
+    background-color: #fffca1;
+    position: absolute;
+    top:40%;
+    right:32%;
+    box-shadow: 3px 3px 10px gray;
+    transform: rotate(5deg);
+}
+div.paper08:hover{
+    width:240px;
+    height: 280px;
+    z-index: 1;
+    transition:all 1s;
+
+}
+div.paper08:hover h2.paperh01{
+    font-size:32px;
+    transition:all 1s;
+
+}
+div.paper08:hover p.paperword01{
+    font-size:24px;
+    transition:all 1s;
+}
+
+@media screen and (max-width:1200px){
+    div.paper01{
+        top:5%;
+    }
+    div.paper02{
+        top:10%;
+    }
+    div.paper03{
+        top:35%;
+    }
+    div.paper04{
+        top:15%;
+    }
+    div.paper05{
+        top:8%;
+    }
+    div.paper06{
+        top:40%;
+    }
+    div.paper07{
+        top:33%;
+    }
+    div.paper08{
+        top:20%;
+        right:25%;
+    }
+}
+@media screen and (max-width:800px){
+    div.paper01{
+        top:0%;
+        left:5%;
+    }
+    div.paper02{
+        top:0%;
+        left:25%;
+    }
+    div.paper03{
+        top:0%;
+        left:50%;
+    }
+    div.paper04{
+        top:0%;
+        left:75%;
+    }
+    div.paper05{
+        top:35%;
+        left:5%;
+    }
+    div.paper06{
+        top:35%;
+        left:30%;
+    }
+    div.paper07{
+        top:35%;
+        left:55%;
+    }
+    div.paper08{
+        top:35%;
+        left:75%;
+    }
+}
+@media screen and (max-width:500px){
+    main.main{
+        margin-top:100px;
+    }
+    div.paper01{
+        top:-15%;
+        left:0%;
+        transform: rotate(0deg);
+    }
+    div.paper02{
+        top:0%;
+        left:0%;
+        transform: rotate(0deg);
+    }
+    div.paper03{
+        top:15%;
+        left:0%;
+        transform: rotate(0deg);
+    }
+    div.paper04{
+        top:30%;
+        left:0%;
+        transform: rotate(0deg);
+    }
+    div.paper05{
+        top:-15%;
+        left:25%;
+        transform: rotate(0deg);
+    }
+    div.paper06{
+        top:0%;
+        left:25%;
+        transform: rotate(0deg);
+    }
+    div.paper07{
+        top:15%;
+        left:25%;
+        transform: rotate(0deg);
+    }
+    div.paper08{
+        top:30%;
+        left:25%;
+        transform: rotate(0deg);
+    }
+}

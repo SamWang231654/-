@@ -1,0 +1,238 @@
+img{
+    vertical-align: top;
+    padding:2px;
+}
+
+/* ====================1==================== */
+section.one{
+    /* border:1px solid red; */
+    display:flex;
+    width:100%;
+    margin:auto;
+    margin-top:100px;
+}
+section.one > div.oneleft{
+    border:1px solid rgba(27,44,19,.6);
+    width:49.5%;
+    border-left:none;
+}
+section.one > div.oneright{
+    border:1px solid rgba(27,44,19,.6);
+    border-left:none;
+    border-right:none;
+    width:50.5%;
+}
+section.one > div.oneleft > p{
+    font-size: 18px;
+    /* color:#53483b; */
+    color:rgba(27,44,19,.8);
+    line-height: 2;
+    margin-left:20px;
+}
+section.one > div.oneleft > p:nth-child(1){
+    /* border:1px solid red; */
+    margin-top:200px;
+}
+
+/* ==================2=================== */
+section.two{
+    /* border:1px solid red; */
+    display:flex;
+    width:100%;
+    margin:auto;
+    margin-top:2px;
+}
+section.two > div.twoleft{
+    border:1px solid rgba(27,44,19,.6);
+    width:50%;
+    border-left:none;
+}
+section.two > div.tworight{
+    border:1px solid rgba(27,44,19,.6);
+    border-left:none;
+    width:50%;
+    border-right:none;
+}
+section.two > div.tworight > p{
+    font-size: 18px;
+    /* color:#53483b; */
+    color:rgba(27,44,19,.8);
+    line-height: 2;
+    margin-left:20px;
+}
+section.two > div.tworight > p:nth-child(1){
+    /* border:1px solid red; */
+    margin-top:200px;
+}
+
+/* ===================3=================== */
+section.three{
+    /* border:1px solid red; */
+    display:flex;
+    width:100%;
+    margin:auto;
+    margin-top:2px;
+}
+section.three > div.threeleft{
+    border:1px solid rgba(27,44,19,.6);
+    width:49.5%;
+    border-left:none;
+
+}
+section.three > div.threeright{
+    border:1px solid rgba(27,44,19,.6);
+    border-left:none;
+    width:50.5%;
+    border-right:none;
+
+}
+section.three > div.threeleft > p{
+    font-size: 18px;
+    /* color:#53483b; */
+    color:rgba(27,44,19,.8);
+    line-height: 2;
+    margin-left:20px;
+}
+section.three > div.threeleft > p:nth-child(1){
+    /* border:1px solid red; */
+    margin-top:200px;
+}
+
+/* =====================4==================== */
+section.four{
+    /* border:1px solid red; */
+    display:flex;
+    width:100%;
+    margin:auto;
+    margin-top:2px;
+}
+section.four > div.fourleft{
+    border:1px solid rgba(27,44,19,.6);
+    width:33.3%;
+    height: 50px;
+    border-right:none;
+    border-left:none;
+
+}
+section.four > div.fourmiddle{
+    border:1px solid rgba(27,44,19,.6);
+    width:33.3%;
+    border-right:none;
+}
+section.four > div.fourright{
+    border:1px solid rgba(27,44,19,.6);
+    width:33.3%;
+    border-right:none;
+}
+section.four > div p{
+    font-size: 18px;
+    color:rgba(27,44,19,.8);
+    text-align: center;
+    padding-top:13px;
+}
+/* ====================5================== */
+section.five{
+    /* border:1px solid red; */
+    display:flex;
+    width:100%;
+    margin:auto;
+    margin-top:2px;
+}
+section.five > div.fiveleft{
+    border:1px solid rgba(27,44,19,.6);
+    border-right:none;
+    border-left:none;
+
+}
+section.five > div.fivemiddle{
+    border:1px solid rgba(27,44,19,.6);
+    border-right:none;
+}
+section.five > div.fiveright{
+    border:1px solid rgba(27,44,19,.6);
+    border-right:none;
+
+}
+@media screen and (max-width:1350px){
+    section.one > div.oneleft > p:nth-child(1){
+        margin-top:100px;
+    }
+    section.two > div.tworight > p:nth-child(1){
+        margin-top:100px;
+    }
+    section.three > div.threeleft > p:nth-child(1){
+        margin-top:100px;
+    }
+}
+@media screen and (max-width:900px){
+    section.one > div.oneleft > p:nth-child(1){
+        margin-top:40px;
+    }
+    section.two > div.tworight > p:nth-child(1){
+        margin-top:40px;
+    }
+    section.three > div.threeleft > p:nth-child(1){
+        margin-top:40px;
+    }
+    section.one > div.oneleft > p{
+        font-size:14px;
+    }
+    section.two > div.tworight > p{
+        font-size:14px;
+    }
+    section.three > div.threeleft > p{
+        font-size:14px;
+    }
+    section.four > div p{
+        font-size:14px;
+        padding-top:19px;
+    }
+}
+@media screen and (max-width:600px){
+    section.one{
+        flex-wrap:wrap;
+    }
+    section.one > div.oneleft{
+        width:100%;
+        border-right: none;
+        border-bottom: none;
+    }
+    section.one > div.oneright{
+        width:100%;
+    }
+    section.two{
+        flex-wrap:wrap;
+    }
+    section.two > div.twoleft{
+        width:100%;
+        border-bottom: none;
+    }
+    section.two > div.tworight{
+        width:100%;
+    }
+    section.three{
+        flex-wrap:wrap;
+    }
+    section.three > div.threeleft{
+        width:100%;
+        border-right: none;
+        border-bottom: none;
+    }
+    section.three > div.threeright{
+        width:100%;
+    }
+    section.five{
+        flex-wrap: wrap;
+    }
+    section.five > div.fiveleft{
+        border-bottom: none;
+        border-left: none;
+    }
+    section.five > div.fivemiddle{
+        border-bottom: none;
+        border-left: none;
+    }
+    section.five > div.fiveright{
+        border-left: none;
+    }
+}

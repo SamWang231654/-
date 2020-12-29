@@ -1,0 +1,70 @@
+footer{
+    width:100%;
+    height:240px;
+    display:block;
+    background-color: rgb(241, 234, 222);
+    margin:auto;
+    /* border:1px solid red; */
+}
+html{
+    scroll-behavior: smooth;
+}
+footer > a > img.footericon{
+    width:35px;
+    display:block;
+    margin: 50px auto;
+    /* border:1px solid red; */
+    box-sizing: content-box;
+}
+footer > a > img.footericon:hover{
+    animation-name:linerun;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+span.footerline{
+    display:block;
+    width:70%;
+    border:.5px solid #aca8a4;
+    margin:auto;
+    margin-bottom:55px;
+}
+footer > P{
+    font-size:20px;
+    color:#aca8a4;
+    text-align: center;
+}
+@keyframes linerun{
+    0%{
+        border-bottom:1px solid cadetblue;
+    }
+    25%{
+        border-right:1px solid cadetblue;
+    }
+    50%{
+        border-top:1px solid cadetblue;
+    }
+    75%{
+        border-left:1px solid cadetblue;
+    }
+    100%{
+        border:3px solid cadetblue;
+        
+    }
+}
+@media screen and (max-width:1199px){
+    footer > P{
+        font-size:15px;
+    }
+    footer > a > img.footericon{
+        width:25px;
+    }
+}
+@media screen and (max-width:375px){
+    footer > P{
+        font-size:12px;
+    }
+    footer > a > img.footericon{
+        width:20px;
+    }
+}

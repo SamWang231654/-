@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            position: relative;
+        }
+        div.back{
+            width:100%;
+            margin:auto;
+            /* border:5px solid red; */
+        }
+        div.back > section#movepic{
+            width:100%;
+            height:100vh;
+            background: url(./test2.jpg);
+        }
+        header > nav{
+            position: absolute;
+            top:0;
+            right:0;
+            border:1px solid blue;
+            margin-top:20px;
+        }
+        header > nav > a{
+            font-size:20px;
+            text-decoration: none;
+            color:#000;
+            margin-right:40px;
+            transition:color 0.5S;
+        }
+        header > nav > a:hover{
+            color:#ffa;
+        }
+        div.page > ul > li{
+            background-color: red;
+        }
+    </style>
+<body>
+    <header>
+        <div class="back">
+            <section id="movepic"></section>
+        </div>
+        <nav>
+            <a href="#">Project</a>
+            <a href="#">Design</a>
+            <a href="#">Flow</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="page">
+            <h1 class="header">Lisfft</h1>
+            <h2>Buy groceries</h2>
+            <ul>
+                <li id="one" class="hot"><em>fresh</em>figs</li>
+                <li id="two" class="hot">pine nuts</li>
+                <li id="three" class="hot">honey</li>
+                <li id="four" class="hot">?QQQQQ</li>
+            </ul>
+        </div>
+        
+    </header>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $('section#movepic').mousemove(function(e){
+            var moveX = (e.pageX * -1 / 40);
+            var moveY = (e.pageY * -1 / 40);
+            $(this).css('background-position', moveX + 'px ' + moveY + 'px')
+        })
+    </script>
+    <script>
+        $(':header').addClass('headline');
+        $('li:lt(4)').hide().fadeIn(1500);
+        $('li').on('click', function(){
+            $(this).remove();
+        });
+    </script>
+</body>
+</html>
